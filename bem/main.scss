@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.form {
+    margin: 40px;
+
+    &__control {
+        margin-bottom: 16px;
+        font-family: sans-serif;
+    }
+
+    &__submit {
+        cursor: pointer;
+        
+        &--sending {
+            cursor: wait;
+        }
+    }
+}
